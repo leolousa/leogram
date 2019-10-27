@@ -54,7 +54,7 @@ export class SignupPage implements OnInit {
         showCloseButton: true,
         closeButtonText: 'OK'
       });
-    toast.present;
+    toast.present();
   }
 
   async cancel() {
